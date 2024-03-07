@@ -76,6 +76,7 @@ lists_copy = lists.copy() # deep copy - independent
 
 lists_cpy.append("lemon") # modifies both posts and lists_cpy since it is shallow copy 
 
+# list comprehension
 num = [1,2,3,4,5,6]
 squares = [i*i for i in num]
 print(squares)
